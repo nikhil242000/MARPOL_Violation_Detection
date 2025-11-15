@@ -1,0 +1,21 @@
+project_name: "MARPOL_Violation_Detection"
+model_type: "YOLOv8"
+num_classes: 3  # oil_spill, garbage_dump, smoke_emission
+
+paths:
+  train_images: "C:\\Users\\hp\\Downloads\\MARPOL_Violation_Detection\\data\\train\\images"
+  train_labels: "C:\\Users\\hp\\Downloads\\MARPOL_Violation_Detection\\data\\train\\labels"
+  val_images: "C:\\Users\\hp\\Downloads\\MARPOL_Violation_Detection\\data\\val\\images"
+  val_labels: "C:\\Users\\hp\\Downloads\\MARPOL_Violation_Detection\\data\\val\\labels"
+  results_dir: "results"
+
+training:
+  epochs: 50
+  batch_size: 16
+  lr: 0.001
+  img_size: 640
+  device: "cpu"   # use CPU since CUDA is unavailable
+
+logging:
+  save_checkpoint: true
+  tensorboard: false

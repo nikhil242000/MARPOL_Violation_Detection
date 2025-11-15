@@ -1,0 +1,4 @@
+train: C:\\Users\\hp\\Downloads\\MARPOL_Violation_Detection\\data\\train\\images
+val: C:\\Users\\hp\\Downloads\\MARPOL_Violation_Detection\\data\\val\\images
+nc: 3
+names: ['oil_spill', 'garbage_dump', 'smoke_emission']

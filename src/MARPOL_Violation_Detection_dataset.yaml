@@ -1,0 +1,7 @@
+names:
+- oil_spill
+- garbage_dump
+- smoke_emission
+path: C:\Users\hp\Downloads\MARPOL_Violation_Detection\src
+train: C:\Users\hp\Downloads\MARPOL_Violation_Detection\data\train\images
+val: C:\Users\hp\Downloads\MARPOL_Violation_Detection\data\val\images
